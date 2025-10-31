@@ -1,0 +1,16 @@
+{
+  "name": "ci-cd-pipeline-demo",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to demonstrate CI/CD with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Running tests...\" && node test.js",
+    "build": "echo \"Building project...\" && mkdir -p dist && cp index.js dist/"
+  },
+  "keywords": ["ci-cd", "github-actions", "nodejs"],
+  "author": "Ranjeet Sahu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
